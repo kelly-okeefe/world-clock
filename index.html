@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="src/style.css"/>
-    <title>World Clock - Kelly O'Keefe</title>
+<link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Merriweather&display=swap" rel="stylesheet"/>
+    <title>DUMMY WORLD CLOCK</title>
 </head>
 <body>
     <div class="container">
@@ -18,7 +21,7 @@
         <option value="">Sydney</option>
     </select>
 
-    <div class="city">
+    <div class="city" id="los-angeles">
         <div>
         <h2>Los Angeles</h2>
         <div class="date">Tues 21 Nov 2023</div>
@@ -26,14 +29,14 @@
         <div class="time">11:54:05 <small>AM</small></div>
     </div>
 
-    <div class="city">
+    <div class="city" id="sydney">
         <div>
         <h2>Sydney</h2>
         <div class="date">Tues 21 Nov 2023</div>
         </div>
         <div class="time">11:54:05 <small>PM</small></div>
     </div>
-    </div>
+    </div>  
     <footer>
         This project was coded by <a href="https://github.com/kelly-okeefe" target="_blank"><strong>Kelly O'Keefe</strong></a> 👩🏻‍🦰 It is <a href="#" target="_blank">open sourced on Github</a> and hosted <a href="https://kelly-okeefe-world-clock.netlify.app/" target="_blank">on Netlify.</a>
     </footer>

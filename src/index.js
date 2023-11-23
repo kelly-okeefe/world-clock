@@ -7,6 +7,22 @@ function updateTime() {
     
     losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM D MMM YYYY");
     losAngelesTimeElement.innerHTML = losAngelesTime.format("h:m:ss [<small>]A[</small>]");
+
+    let newYorkelement = document.querySelector("#new-york");
+    let newYorkDateElement = newYorkelement.querySelector(".date");
+    let newYorkTimeElement = newYorkelement.querySelector(".time");
+    let newYorkTime = moment().tz("America/New_York");
+
+    newYorkDateElement.innerHTML = newYorkTime.format("ddd D MMM YYYY");
+    newYorkTimeElement.innerHTML = newYorkTime.format("h:mm:ss [<small>]A[</small>]");
+
+    let londonElement = document.querySelector("#london");
+    let londonDateElement = londonElement.querySelector(".date");
+    let londonTimeElement = londonElement.querySelector(".time");
+    let londonTime = moment().tz("Europe/London");
+
+    londonDateElement.innerHTML = londonTime.format("ddd D MMM YYYY");
+    londonTimeElement.innerHTML = londonTime.format("h:mm:ss [<small>]A[</small>]");
     
     let sydneyElement = document.querySelector("#sydney");
     let sydneyDateElement = sydneyElement.querySelector(".date");

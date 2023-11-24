@@ -56,6 +56,9 @@ function updateTime() {
         <div class="date">${cityTime.format("ddd D MMM YYYY")}</div>
         </div>
         <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small></div>`;
+        let linkHome = document.querySelector("#link-home");
+        linkHome.innerHTML = `<a href="/">Return to Homepage</a>`;
+        linkHome.style.textAlign = "center";
         citiesElement.style.backgroundColor = "#ebe3db";
         citiesElement.style.borderRadius = "10px";
         citiesElement.style.color = "#3a2d28";

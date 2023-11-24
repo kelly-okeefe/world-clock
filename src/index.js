@@ -48,7 +48,6 @@ function updateTime() {
         }
         let cityName = cityTimezone.split("/")[1];
         let cityTime = moment().tz(cityTimezone);
-        console.log(cityTime.format("MMMM Do YYYY"));
         let citiesElement = document.querySelector("#cities");
         citiesElement.innerHTML = 
         `<div class="city">
@@ -57,6 +56,9 @@ function updateTime() {
         <div class="date">${cityTime.format("ddd D MMM YYYY")}</div>
         </div>
         <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small></div>`;
+        citiesElement.style.backgroundColor = "#ebe3db";
+        citiesElement.style.borderRadius = "10px";
+        citiesElement.style.color = "#3a2d28";
     }
     
     updateTime();

@@ -75,7 +75,12 @@ select {
     line-height: 36px;
     vertical-align: middle;
 }
-
+.home-link {
+    justify-content: center;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Merriweather', serif;
+    color: #3a2d28;
+}
 footer{
     margin-top: 20px;
     text-align: center;

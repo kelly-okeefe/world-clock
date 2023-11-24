@@ -5,7 +5,7 @@ function updateTime() {
     let losAngelesTimeElement = losAngelesElement.querySelector(".time");
     let losAngelesTime = moment().tz("America/Los_Angeles");
     
-    losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM D MMM YYYY");
+    losAngelesDateElement.innerHTML = losAngelesTime.format("ddd D MMM YYYY");
     losAngelesTimeElement.innerHTML = losAngelesTime.format("h:m:ss [<small>]A[</small>]");
 
     let newYorkelement = document.querySelector("#new-york");
@@ -29,7 +29,7 @@ function updateTime() {
     let sydneyTimeElement = sydneyElement.querySelector(".time");
     let sydneyTime = moment().tz("Australia/Sydney");
     
-    sydneyDateElement.innerHTML = sydneyTime.format("MMMM D MMM YYYY");
+    sydneyDateElement.innerHTML = sydneyTime.format("ddd D MMM YYYY");
     sydneyTimeElement.innerHTML = sydneyTime.format("h:m:ss [<small>]A[</small>]");
     }
     

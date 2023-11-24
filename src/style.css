@@ -1,11 +1,12 @@
 body {
-    background-color: lavender;
+    background-color: #faf9f6;
+    color: #141204;
 }
 h1 {
     text-align: center;
     font-family: 'Carrois Gothic', sans-serif;
     font-family: 'Merriweather', serif;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 h2 {
@@ -15,39 +16,48 @@ h2 {
 
 select {
     display: block;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     padding: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
     font-size: 18px;
+    background-color: #faf9f6;
+    color: #3F352C;
     font-family: 'Carrois Gothic', sans-serif;
     font-family: 'Merriweather', serif;
 }
 
+#los-angeles, #london {
+    background-color: #E6D6BE;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
 .container {
-    max-width: 600px;
-    margin: 60px auto;
-    background-color: wheat;
-    padding: 40px;
-    box-shadow: 0px 7px 29px 0px burlywood;
+    max-width: 550px;
+    margin: 20px auto;
+    background-color: tan;
+    padding: 20px 35px;
+    box-shadow: 0px 7px 29px 0px #7A6E51;
     border-radius: 10px;
 }
+
 .city {
     display: flex;
     font-family: 'Carrois Gothic', sans-serif;
     font-family: 'Merriweather', serif;
     justify-content: space-between;
     margin: 10px 0;
-    padding: 15px 0;
-    border-bottom: 1px dotted black;
+    padding: 15px 15px;
 }
 
 .city:last-child {
-    border: none;
     padding-bottom: 10px;
 }
 
 .date {
-    opacity: 0.7;
+    opacity: 0.8;
     font-family: 'Carrois Gothic', sans-serif;
     font-family: 'Merriweather', serif;
 }

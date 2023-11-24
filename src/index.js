@@ -56,7 +56,7 @@ function updateTime() {
         <h2>${cityName}</h2>
         <div class="date">${cityTime.format("ddd D MMM YYYY")}</div>
         </div>
-        <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small></div>`;
+        <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small></div><a href="index.html">All cities</a>`;
     }
     
     updateTime();

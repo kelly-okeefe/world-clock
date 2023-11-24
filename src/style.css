@@ -9,6 +9,13 @@ h1 {
     font-size: 40px;
 }
 
+a {
+    justify-content: center;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Merriweather', serif;
+    color: #3a2d28;
+}
+
 a:visited {
     color: #3a2d28;
     text-decoration: none;

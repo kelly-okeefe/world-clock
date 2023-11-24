@@ -16,13 +16,13 @@ function updateTime() {
     newYorkDateElement.innerHTML = newYorkTime.format("ddd D MMM YYYY");
     newYorkTimeElement.innerHTML = newYorkTime.format("h:mm:ss [<small>]A[</small>]");
 
-    let londonElement = document.querySelector("#london");
-    let londonDateElement = londonElement.querySelector(".date");
-    let londonTimeElement = londonElement.querySelector(".time");
-    let londonTime = moment().tz("Europe/London");
+    let athensElement = document.querySelector("#athens");
+    let athensDateElement = athensElement.querySelector(".date");
+    let athensTimeElement = athensElement.querySelector(".time");
+    let athensTime = moment().tz("Europe/Athens");
 
-    londonDateElement.innerHTML = londonTime.format("ddd D MMM YYYY");
-    londonTimeElement.innerHTML = londonTime.format("h:mm:ss [<small>]A[</small>]");
+    athensDateElement.innerHTML = athensTime.format("ddd D MMM YYYY");
+    athensTimeElement.innerHTML = athensTime.format("h:mm:ss [<small>]A[</small>]");
     
     let sydneyElement = document.querySelector("#sydney");
     let sydneyDateElement = sydneyElement.querySelector(".date");
